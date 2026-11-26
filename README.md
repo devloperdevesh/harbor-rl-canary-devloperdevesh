@@ -93,3 +93,7 @@ Not yet recorded. Add the real, publicly accessible Loom URL here after recordin
 ## Limitations
 
 This submission records the experiments that actually ran. The required terminus-2 baseline, terminus-2 ablation, genuine chat transcript export, and Loom demonstration remain incomplete. No results are fabricated or attributed to a different agent.
+
+## Demo Video
+
+[Watch the Harbor RL Canary walkthrough on Loom](https://www.loom.com/share/c9eb646b94f044b6a45d892446efd780)
