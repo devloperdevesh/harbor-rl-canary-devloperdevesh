@@ -22,3 +22,13 @@ Do not manually fabricate result files or AI transcripts.
 - Reward-hacking demonstration and hardened verifier
 - Genuine AI coding-tool transcript exports
 - Unedited Loom demonstration URL
+
+## Submission status (verified)
+
+- Harbor task lint: passed.
+- Dense verifier Oracle reference-solution check: reward 1.000.
+- Dense verifier hardcoded-output hack check: reward 0.000.
+- Local Qwen-Coder 7B exploratory run: reward 0.000; retained as a failed exploratory run, not reported as a baseline.
+- The required three-trial terminus-2 baseline and three-trial controlled ablation have NOT been completed.
+- Partial-reward calibration, six-trial advantage calculations, final Loom walkthrough, and complete required transcript set remain outstanding.
+- Validation evidence is stored under `jobs_summary/verifier-validation/`. The exploratory local-agent evidence is stored under `jobs_summary/exploratory-qwen-coder/`.
