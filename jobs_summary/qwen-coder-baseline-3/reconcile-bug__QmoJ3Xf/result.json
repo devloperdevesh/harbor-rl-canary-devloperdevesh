@@ -1,0 +1,137 @@
+{
+    "schema_version": 1,
+    "id": "6a5810d7-3193-4372-a231-7926488547c5",
+    "task_name": "devloperdevesh/reconcile-bug",
+    "trial_name": "reconcile-bug__QmoJ3Xf",
+    "trial_uri": "file:///C:/Users/OS/OneDrive/Music/Desktop/harbor-rl-canary-devloperdevesh/jobs/qwen-coder-baseline-3/reconcile-bug__QmoJ3Xf",
+    "task_id": {
+        "path": "tasks\\reconcile-bug"
+    },
+    "source": null,
+    "task_checksum": "05190f3ef41d676c87ede64887dce64ce55b7de2db8d21393cfcbeb8d5527e42",
+    "config": {
+        "schema_version": 1,
+        "task": {
+            "path": "tasks\\reconcile-bug",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "reconcile-bug__QmoJ3Xf",
+        "trials_dir": "jobs\\qwen-coder-baseline-3",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "qwen-coder",
+            "import_path": null,
+            "model_name": "qwen2.5-coder:7b",
+            "base_url": "http://host.docker.internal:11434/v1",
+            "model_api_key_name": "OPENAI_API_KEY",
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "env": {
+                "OPENAI_API_KEY": "****"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "override_error_policy": {},
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "1bd26bfa-f977-4f6a-8d8a-608d6287a1ff",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "qwen-coder",
+        "version": "0.28.4",
+        "model_info": {
+            "name": "qwen2.5-coder:7b",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 2050,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 506,
+        "cost_usd": null,
+        "model_usage": {
+            "qwen2.5-coder:7b": {
+                "n_input_tokens": 2050,
+                "n_cache_tokens": 0,
+                "n_output_tokens": 506,
+                "cost_usd": null
+            }
+        },
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-11-26T03:15:40.104493Z",
+    "finished_at": "2026-11-26T03:19:59.375148Z",
+    "environment_setup": {
+        "started_at": "2026-11-26T03:15:40.278795Z",
+        "finished_at": "2026-11-26T03:15:46.807123Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-26T03:15:46.807230Z",
+        "finished_at": "2026-11-26T03:17:15.821793Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-26T03:17:15.822702Z",
+        "finished_at": "2026-11-26T03:19:35.457316Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-26T03:19:43.325223Z",
+        "finished_at": "2026-11-26T03:19:59.375131Z"
+    },
+    "step_results": null,
+    "reward_valid": true
+}

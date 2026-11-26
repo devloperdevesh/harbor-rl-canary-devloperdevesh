@@ -1,0 +1,23 @@
+﻿[
+    {
+        "Validation":  "dense-oracle-validation",
+        "Trials":  1,
+        "Exceptions":  0,
+        "MeanReward":  1.0,
+        "RewardDistribution":  "1.0"
+    },
+    {
+        "Validation":  "dense-hack-validation",
+        "Trials":  1,
+        "Exceptions":  0,
+        "MeanReward":  0.0,
+        "RewardDistribution":  "0.0"
+    },
+    {
+        "Validation":  "dense-partial-validation",
+        "Trials":  1,
+        "Exceptions":  0,
+        "MeanReward":  0.6666,
+        "RewardDistribution":  "0.6666"
+    }
+]

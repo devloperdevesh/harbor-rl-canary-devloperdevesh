@@ -1,0 +1,44 @@
+﻿[
+    {
+        "Experiment":  "Qwen-Coder baseline",
+        "TrialId":  "reconcile-bug__apyAaF9",
+        "DenseReward":  0,
+        "DenseAdvantage":  0,
+        "JobExceptions":  0
+    },
+    {
+        "Experiment":  "Qwen-Coder baseline",
+        "TrialId":  "reconcile-bug__gEybCUu",
+        "DenseReward":  0,
+        "DenseAdvantage":  0,
+        "JobExceptions":  0
+    },
+    {
+        "Experiment":  "Qwen-Coder baseline",
+        "TrialId":  "reconcile-bug__QmoJ3Xf",
+        "DenseReward":  0,
+        "DenseAdvantage":  0,
+        "JobExceptions":  0
+    },
+    {
+        "Experiment":  "Qwen-Coder instruction-clarity ablation",
+        "TrialId":  "reconcile-bug-ablation__DRiQ3Ny",
+        "DenseReward":  0,
+        "DenseAdvantage":  0,
+        "JobExceptions":  0
+    },
+    {
+        "Experiment":  "Qwen-Coder instruction-clarity ablation",
+        "TrialId":  "reconcile-bug-ablation__UMzZvnH",
+        "DenseReward":  0,
+        "DenseAdvantage":  0,
+        "JobExceptions":  0
+    },
+    {
+        "Experiment":  "Qwen-Coder instruction-clarity ablation",
+        "TrialId":  "reconcile-bug-ablation__xvihSFp",
+        "DenseReward":  0,
+        "DenseAdvantage":  0,
+        "JobExceptions":  0
+    }
+]
