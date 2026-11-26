@@ -40,3 +40,18 @@ Do not manually fabricate result files or AI transcripts.
 - Token usage: zero. This is a connectivity failure, not a successful agent evaluation.
 - The smoke-test result is preserved in jobs_summary/terminus2-ollama-smoke/.
 - No official baseline or ablation result is claimed from this run.
+
+## Evaluation status and verified evidence
+
+### Dense verifier validation
+- Correct reference solution: reward 1.0 (Oracle validation).
+- Hardcoded reward-hacking attempt: reward 0.0 (Oracle validation).
+- Task lint passed during validation.
+- Evidence is preserved under \jobs_summary/dense-verifier-validation/\.
+
+### Agent evaluation limitation
+- A local terminus-2 smoke test using Ollama/Qwen2.5-Coder 7B failed with an endpoint connectivity timeout and zero token usage.
+- Local Qwen/OpenCode experiments did not produce a passing solution.
+- NOP trials returned reward 0.0.
+- These runs are diagnostic/exploratory evidence only, not the required three-trial terminus-2 baseline and three-trial ablation.
+- Official baseline/ablation comparison and advantages remain incomplete.

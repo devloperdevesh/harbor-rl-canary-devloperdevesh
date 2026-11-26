@@ -16,3 +16,8 @@ Thumbs.db
 *.pem
 *.key
 secrets/
+jobs/
+*.backup
+*.bak
+tasks/reconcile-bug-hack-test/
+tasks/reconcile-bug-hack-validation/
