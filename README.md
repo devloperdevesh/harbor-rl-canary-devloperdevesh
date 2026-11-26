@@ -1,4 +1,4 @@
-﻿# Harbor RL Canary — Payment Reconciliation
+# Harbor RL Canary — Payment Reconciliation
 
 ## Project overview
 
@@ -63,7 +63,7 @@ These are local Qwen-Coder experiments, not official terminus-2 baseline results
 
 ## Terminus-2 endpoint limitation
 
-A local terminus-2 smoke test using Ollama/Qwen2.5-Coder 7B failed with an endpoint connectivity timeout (`host.docker.internal:11434`). It used zero tokens and produced no valid agent evaluation. It is retained as diagnostic evidence only.
+Two local Terminus-2 wrapper diagnostics were attempted with Ollama/Qwen2.5-Coder 7B. The first attempt using `host.docker.internal:11434` failed to connect and used zero tokens. The second attempt using `127.0.0.1:11434` reached the local model and generated 9,888 prompt tokens and 1,462 completion tokens, but the agent timed out after 600 seconds. Its trajectory records JSON parser warnings, unnecessary editor installation, incorrect Vim interaction, and faulty generated code. This was a diagnostic run using a local Qwen model through the Terminus-2 wrapper, not an official Terminus-2 model evaluation.
 
 The required terminus-2 baseline and terminus-2 ablation have therefore not been completed.
 
