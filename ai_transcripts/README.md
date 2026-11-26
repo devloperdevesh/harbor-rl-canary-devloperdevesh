@@ -1,0 +1,1 @@
+Export the AI coding tool session you actually used into this folder. Check for and remove secrets/API keys without falsifying the transcript.\n
