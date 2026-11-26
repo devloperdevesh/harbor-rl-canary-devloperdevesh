@@ -79,10 +79,6 @@ The tested hardcoded-output solution received 0.0000 from the dense verifier, wh
 
 Available per-trial agent output files are preserved separately from Harbor trajectories. They are not represented as exported interactive chat histories. A genuine coding-tool chat transcript export remains outstanding.
 
-## Loom walkthrough
-
-Not yet recorded. Add the real, publicly accessible Loom URL here after recording the demonstration.
-
 ## Reproducibility and evidence
 
 - Task lint passed: `harbor lint tasks/reconcile-bug --json` returned `[]`.
@@ -94,6 +90,17 @@ Not yet recorded. Add the real, publicly accessible Loom URL here after recordin
 
 This submission records the experiments that actually ran. The required terminus-2 baseline, terminus-2 ablation, and genuine chat transcript export remain incomplete; the Loom demonstration is linked above. No results are fabricated or attributed to a different agent.
 
-## Demo Video
+## Loom Walkthrough
 
 [Watch the Harbor RL Canary walkthrough on Loom](https://www.loom.com/share/c9eb646b94f044b6a45d892446efd780)
+
+## Remaining Work and Evaluation Limitations
+
+The current repository contains local Qwen-Coder baseline and ablation
+experiment evidence, dense reward verifier validation, trajectory artifacts,
+and advantage calculations.
+
+The official Terminus-2 baseline and controlled ablation evaluation
+(three trials each) have not yet been completed successfully.
+The genuine interactive AI coding-tool chat transcript export is also pending.
+Local diagnostic attempts are not represented as official Terminus-2 results.
