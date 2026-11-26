@@ -21,3 +21,12 @@ jobs/
 *.bak
 tasks/reconcile-bug-hack-test/
 tasks/reconcile-bug-hack-validation/
+
+# Local diagnostic runs and temporary backups
+*.binary-backup
+jobs_summary/nop/
+jobs_summary/nop-baseline/
+jobs_summary/ollama-opencode/
+jobs_summary/oracle/
+jobs_summary/oracle-artifact-fix/
+jobs_summary/reward-hacking-test/
