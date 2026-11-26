@@ -92,7 +92,7 @@ Not yet recorded. Add the real, publicly accessible Loom URL here after recordin
 
 ## Limitations
 
-This submission records the experiments that actually ran. The required terminus-2 baseline, terminus-2 ablation, genuine chat transcript export, and Loom demonstration remain incomplete. No results are fabricated or attributed to a different agent.
+This submission records the experiments that actually ran. The required terminus-2 baseline, terminus-2 ablation, and genuine chat transcript export remain incomplete; the Loom demonstration is linked above. No results are fabricated or attributed to a different agent.
 
 ## Demo Video
 
