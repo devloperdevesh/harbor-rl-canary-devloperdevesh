@@ -1,0 +1,14 @@
+Inference credentials: 1 mappings across 1 trials
+Skipping image OS validation for hb__1efd87009e263b6fbd3831bdff9866bb: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Unknown Error in LLM interaction: litellm.APIConnectionError: Ollama_chatException - Cannot connect to host host.docker.internal:11434 ssl:<ssl.SSLContext object at 0x0000023B0A5AA530> [The semaphore timeout period has expired]
+Unknown Error in LLM interaction: litellm.APIConnectionError: Ollama_chatException - Cannot connect to host host.docker.internal:11434 ssl:<ssl.SSLContext object at 0x0000023B0A5AA530> [The semaphore timeout period has expired]
+Trajectory dumped to jobs\terminus2-ollama-smoke\reconcile-bug__e39byVp\agent\trajectory.json
+Collecting main service artifacts
+Skipping image OS validation for hb__1efd87009e263b6fbd3831bdff9866bb: docker inspect returned 1
+Not retrying trial because an error is excluded by the retry policy

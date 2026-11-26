@@ -32,3 +32,11 @@ Do not manually fabricate result files or AI transcripts.
 - The required three-trial terminus-2 baseline and three-trial controlled ablation have NOT been completed.
 - Partial-reward calibration, six-trial advantage calculations, final Loom walkthrough, and complete required transcript set remain outstanding.
 - Validation evidence is stored under `jobs_summary/verifier-validation/`. The exploratory local-agent evidence is stored under `jobs_summary/exploratory-qwen-coder/`.
+
+## Terminus-2 local endpoint diagnostic
+
+- A single local smoke test was attempted with terminus-2 and Qwen2.5-Coder 7B through Ollama.
+- Outcome: failed with AgentTimeoutError; LiteLLM could not connect to host.docker.internal:11434.
+- Token usage: zero. This is a connectivity failure, not a successful agent evaluation.
+- The smoke-test result is preserved in jobs_summary/terminus2-ollama-smoke/.
+- No official baseline or ablation result is claimed from this run.
